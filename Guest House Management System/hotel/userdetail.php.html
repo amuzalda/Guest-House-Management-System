@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Detail</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="website_title"> 
+			<div class="title"> User Detail</div>
+			<div class="salgon"></div>
+		</div>
+		<div id="menu">
+      		<ul>
+        		<li><a href="index.html" >Home</a></li>
+        		<li><a href="#">Gallery</a></li>
+       			<li><a href="#" class="last">Contact</a></li>
+      		</ul>
+    	</div>
+	</div>
+<!-- end of banner-->
+<div class="content">
+	<div id="content_left">
+      <div class="content_left_section">
+        <div class="content_title_01">Details :</div>
+        <form action="connect.php" method="post" >
+          <div class="form_row">
+            <label>First Name :</label>
+            <input class="inputfield" name="firstname" type="text" style="width: 100px;margin-left: 10px" /><br><br>
+            <label>Last Name :</label>
+            <input class="inputfield" name="lastname" type="text" style="width: 100px; margin-right: 20px;margin-left: 12px"/><br><br>
+            <label>Post :</label>
+            <select name="post" style="margin-left: 11px">
+            	<option >Student</option>
+            	<option>Faculty</option>
+            </select><br><br>
+            <label>Contact :</label>
+             <input class="inputfield" name="contact" type="text" style="width: 100px; margin-right: 20px;margin-left: 11px" /><br><br>
+            <label>Adress :</label>
+             <input class="inputfield" name="adressline1" type="text" style="width: 200px; margin-right: 20px;margin-left: 11px; padding: 40px" /><br><br>
+               <div class="rc_btn_01"><a href="connect.php">Submit</a></div>
+           </div>
+        </form>
+     </div>
+           </div>
+ 
+      </div>
+</div>
+</body>
+</html>
